@@ -33,7 +33,7 @@ def predict():
         final_features = np.array([features])
         prediction = model.predict(final_features)[0]
 
-        result = "❤️ Heart Disease Detected" if prediction == 1 else "✅ No Heart Disease"
+        result = " Heart Disease Detected" if prediction == 1 else "No Heart Disease"
 
         return render_template("index.html", result=result)
 
