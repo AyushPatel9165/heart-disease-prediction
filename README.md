@@ -17,8 +17,7 @@ This project predicts the presence of heart disease based on medical attributes 
 - Pickle
 
 
-## Author
-Ayush Patel
+ 
 
 
 
